@@ -7,11 +7,11 @@ import Luis from '../Images/LuisLogo.png';
 
 function About() {
     return (
-      <div class="bg-white rounded overflow-hidden shadow-lg hover:shadow-2xl text-black border-red-200 p-50" id="aComp">
+      <div class="bg-white rounded overflow-hidden shadow-white shadow-lg text-black border-red-200 p-50" id="aComp">
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2 text-center">About</div>
+    <div class="font-bold text-xl mb-2 text-center text-white"></div>
   </div>
-  <div class="px-6 pt-4 pb-2">
+  <div class="px-6 pt-4 pb-2 text-white">
     <p>Jumpin-It is an addictive game developed by ARJEE GAMES, with the support of Luis Ahumada and Hash Studios. 
       You play as Army Alex, a blonde-haired gunman being chased by a giant pickle jar down a busy street.
        Dodge obstacles, kill aliens, and try to beat your friends' high scores in this fast-paced game with simple yet engaging graphics. 

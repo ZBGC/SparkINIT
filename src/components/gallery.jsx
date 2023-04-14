@@ -11,9 +11,9 @@ import Teer8 from "../Images/gameplay/G8.png";
 export default function gallery(){
 
     return(
-        <div class=" rounded overflow-hidden shadow-lg hover:shadow-2xl p-20 scroll-touch" id="aComp">
-            <div class="px-6 py-4">
-                <div class="flex overflow-x-auto py-4 px-6 space-x-8 rounded hide-scroll-bar">
+        <div class=" rounded overflow-hidden shadow-white shadow-lg p-20 scroll-touch " id="aComp">
+            <div class="">
+                <div class="flex [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none'] overflow-x-scroll whitespace= py-4 px-6 space-x-8 rounded">
                 <div class="flex-shrink-0 border-8 rounded"><img src={Teer2} class="h-96 w-96 object-cover rounded"></img></div>
                 <div class="flex-shrink-0 border-8 rounded"><img src={Teer3} class="h-96 w-96 object-cover rounded"></img></div>
                 <div class="flex-shrink-0 border-8 rounded"><img src={Teer4} class="h-96 w-96 object-cover rounded"></img></div>
