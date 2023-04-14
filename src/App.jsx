@@ -6,15 +6,15 @@ import Leaderboard from "./components/leaderboard";
 export default function App() {  
   return (
         <>
-        <BrowserRouter>
-        <div>
-          <Nav_Bar/>
-        </div>
-          <Routes>
-            <Route exact path="/" element={<Home/>}/>
-            <Route exact path="/Leaderboard" element={<Leaderboard/>}/>
-          </Routes>
-        </BrowserRouter>
+          <BrowserRouter>
+            <Nav_Bar/>
+            <>
+            <Routes>
+              <Route exact path="/" element={<Home/>}/>
+              <Route exact path="/Leaderboard" element={<Leaderboard/>}/>
+            </Routes>
+            </>
+          </BrowserRouter>
         </>
   );
 }

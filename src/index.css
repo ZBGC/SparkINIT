@@ -70,7 +70,7 @@ li{
  font-weight: bolder;
  font-size: 110px;
  background-color: #0a2650;
- margin-top: 3rem;
+ margin-top: 4rem;
  margin-bottom: 3rem;
 }
 
@@ -113,3 +113,13 @@ background-color: white;
   opacity: 0.6;
 }
 
+#leaderboard-navbar {
+  padding: 4%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 110px;
+  background-color: #0a2650;
+  margin-bottom: 3rem;
+  margin-top: 0;
+}
