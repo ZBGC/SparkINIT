@@ -5,11 +5,10 @@ import About from "./components/about";
 import Download from "./components/Download";
 import bgVideo from "./Images/Videobackground.mp4";
 import Socials from "./components/Socials";
-import {  useNavigate } from 'react-router-dom';
 
 
 export default function App() {
-  const navigate = useNavigate();
+
   const handleAbout = () => {
     const element = document.getElementById('hAbout');
     if (element) {
@@ -78,7 +77,7 @@ export default function App() {
                     </li>
                     <li class="flex-1 mr-2 sticky">
                     <button 
-                        onClick={() => navigate("/Leaderboard")}
+ 
                         class=" block py-2 pl-5 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-white md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent sticky"
                         >
                         Leaderboard
