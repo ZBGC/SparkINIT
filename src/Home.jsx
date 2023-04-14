@@ -103,6 +103,7 @@ export const Nav_Bar = () => {
                         Download
                     </button>
         
+                    </li>
                     <li class="flex-1 mr-2 sticky">
                     <button 
                         onClick={() => navigate("/Leaderboard")}
@@ -111,7 +112,6 @@ export const Nav_Bar = () => {
                         Leaderboard
                     </button>
                     
-                    </li>
                     </li>
                     <li class="flex-1 mr-2 sticky">
                     <button 
