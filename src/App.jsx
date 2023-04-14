@@ -5,8 +5,11 @@ import About from "./components/about";
 import Download from "./components/Download";
 import bgVideo from "./Images/Videobackground.mp4";
 import Socials from "./components/Socials";
+import {  useNavigate } from 'react-router-dom';
+
 
 export default function App() {
+  const navigate = useNavigate();
   const handleAbout = () => {
     const element = document.getElementById('hAbout');
     if (element) {
