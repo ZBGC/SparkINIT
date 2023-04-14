@@ -72,6 +72,14 @@ export default function App() {
               Download
             </button>
 
+     <li className="mr-2 sticky">
+          <button 
+              className=" block py-2 pl-5 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-white md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent sticky" aria-current="page"
+            >
+              Leaderboard
+            </button>
+          </li>
+
             
           </li>
           <li class="flex-1 mr-2 sticky">
