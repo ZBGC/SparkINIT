@@ -44,7 +44,7 @@ export default function App() {
       <div className="top-0 sticky" id="navBar">    
             <nav className="border-gray-200 bg-[#081e3f] dark:border-gray-800 dark:border-gray-700" id="navBar">
         <div className=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
-            <a href="#" class="flex  items-center " onClick={() => navigate("/")}>
+            <a href="#" class="flex  items-center ">
                 <img src={Logo} class="h-10 mr-3 " />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-white ">JUMPIN-IT</span>
             </a>
